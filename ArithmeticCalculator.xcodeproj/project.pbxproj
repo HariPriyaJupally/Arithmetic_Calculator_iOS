@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F0F93F8A226563F3006E21F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F93F89226563F3006E21F3 /* AppDelegate.swift */; };
-		F0F93F8C226563F3006E21F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F93F8B226563F3006E21F3 /* ViewController.swift */; };
+		F0F93F8C226563F3006E21F3 /* ArithmeticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F93F8B226563F3006E21F3 /* ArithmeticViewController.swift */; };
 		F0F93F8F226563F3006E21F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F93F8D226563F3006E21F3 /* Main.storyboard */; };
 		F0F93F91226563F4006E21F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F93F90226563F4006E21F3 /* Assets.xcassets */; };
 		F0F93F94226563F4006E21F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F93F92226563F4006E21F3 /* LaunchScreen.storyboard */; };
 		F0F93F9F226563F4006E21F3 /* ArithmeticCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F93F9E226563F4006E21F3 /* ArithmeticCalculatorTests.swift */; };
 		F0F93FAA226563F4006E21F3 /* ArithmeticCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F93FA9226563F4006E21F3 /* ArithmeticCalculatorUITests.swift */; };
+		F0F93FB8226569E3006E21F3 /* ExerciseCoach.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F93FB7226569E3006E21F3 /* ExerciseCoach.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		F0F93F86226563F3006E21F3 /* ArithmeticCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArithmeticCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F93F89226563F3006E21F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0F93F8B226563F3006E21F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0F93F8B226563F3006E21F3 /* ArithmeticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticViewController.swift; sourceTree = "<group>"; };
 		F0F93F8E226563F3006E21F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0F93F90226563F4006E21F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0F93F93226563F4006E21F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		F0F93FA5226563F4006E21F3 /* ArithmeticCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArithmeticCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F93FA9226563F4006E21F3 /* ArithmeticCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticCalculatorUITests.swift; sourceTree = "<group>"; };
 		F0F93FAB226563F4006E21F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F93FB7226569E3006E21F3 /* ExerciseCoach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCoach.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				F0F93F89226563F3006E21F3 /* AppDelegate.swift */,
-				F0F93F8B226563F3006E21F3 /* ViewController.swift */,
+				F0F93F8B226563F3006E21F3 /* ArithmeticViewController.swift */,
 				F0F93F8D226563F3006E21F3 /* Main.storyboard */,
 				F0F93F90226563F4006E21F3 /* Assets.xcassets */,
 				F0F93F92226563F4006E21F3 /* LaunchScreen.storyboard */,
 				F0F93F95226563F4006E21F3 /* Info.plist */,
+				F0F93FB7226569E3006E21F3 /* ExerciseCoach.swift */,
 			);
 			path = ArithmeticCalculator;
 			sourceTree = "<group>";
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0F93F8C226563F3006E21F3 /* ViewController.swift in Sources */,
+				F0F93F8C226563F3006E21F3 /* ArithmeticViewController.swift in Sources */,
+				F0F93FB8226569E3006E21F3 /* ExerciseCoach.swift in Sources */,
 				F0F93F8A226563F3006E21F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
